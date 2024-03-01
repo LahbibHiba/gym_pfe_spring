@@ -18,16 +18,16 @@ public class GymplaceServices {
         this.gymrepo = gymrepo;
 
     }
-    public List<Gymplace> getAllgymplaces(){
-        return gymrepo.findAll();
-    }
-    public Gymplace Savegymplace(Gymplace gp){
-        return gymrepo.save(gp);
-    }
-    public void Deletgymplacebyid(Long id){
-         gymrepo.deleteById(id);
-    }
-    public Optional<Gymplace> getgymplacebyid(Long id){
-        return gymrepo.findById(id);
-    }
+//    public List<Gymplace> getAllgymplaces(){
+//        return gymrepo.findAll();
+//    }
+//    public Gymplace Savegymplace(Gymplace gp){
+//        return gymrepo.save(gp);
+//    }
+//    public void Deletgymplacebyid(Long id){
+//         gymrepo.deleteById(id);
+//    }
+//    public Optional<Gymplace> getgymplacebyid(Long id){
+//        return gymrepo.findById(id);
+//    }
 }
